@@ -6,9 +6,6 @@ const Header = () => {
   return (
     <header className='container header__container'>
         <section className="header header__text">
-            <div className="head__content logo__text">
-                <h2><span>RightRate</span>Finance</h2>
-            </div>
             <div className="head__content">
             <div className="main__text">
                 <h2>Go Beyond Ordinary</h2>
