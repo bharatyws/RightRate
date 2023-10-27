@@ -6,6 +6,7 @@ import WhyRightrate from './components/whyRightrate/WhyRightrate'
 import Eligibility from './components/eligibility/Eligibility'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
+import Testimonials from './components/testimonials/Testimonials'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Applynow/>
         <WhyRightrate/>
         <Eligibility/>
+        <Testimonials/>
         <Footer/>
     </>
   )
