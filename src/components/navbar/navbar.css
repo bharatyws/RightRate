@@ -21,10 +21,11 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 li a {
+  color: var(--color-text);
   display: block;
   text-align: center;
   padding: 14px 16px;

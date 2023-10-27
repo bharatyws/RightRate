@@ -14,8 +14,8 @@ const WhyRightrate = () => {
             <h2>Why Choose <span>RightRate</span> ?</h2>
         </div>
         <div className="whyrightrate__content">
-            <div className="content__items"><span className='icons'><FaClock/></span><p>Apply in Few Minutes</p></div>
-            <div className="content__items"><span className='icons'><BsCalendarDateFill/></span><p>Get Money in Few Days</p></div>
+            <div className="content__items"><span className='icons'><FaClock/></span><p>Easy Apply</p></div>
+            <div className="content__items"><span className='icons'><BsCalendarDateFill/></span><p>Instant Transfer</p></div>
             <div className="content__items"><span className='icons'><BsFillLightningFill/></span><p>Fast Approval</p></div>
             <div className="content__items"><span className='icons'><MdHomeWork/></span><p>No Branch Visit</p></div>
             <div className="content__items"><span className='icons'><FaMoneyBillTransfer/></span><p>Easy Tenure</p></div>

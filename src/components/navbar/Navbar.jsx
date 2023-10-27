@@ -10,10 +10,10 @@ const Navbar = () => {
 
         <nav>
             <ul>
-                <li><a href="#"> Link1</a></li>
-                <li><a href="#"> Link2</a></li>
-                <li><a href="#"> Link3</a></li>
-                <li><a href="#"> Link4</a></li>
+                <li><a href="#"> Company</a></li>
+                <li><a href="#"> Intrests</a></li>
+                <li><a href="#"> EMI Calculator</a></li>
+                <li><a href="#"> Awards</a></li>
             </ul>
         </nav>
         
