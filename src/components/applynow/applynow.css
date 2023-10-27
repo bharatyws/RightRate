@@ -1,79 +1,77 @@
 .applynow__container > h1 {
-    text-align: center;
-    margin-top: 4rem;
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .applynow__sections {
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
 }
 
 .steps {
-    display: grid;
-    grid-template-columns: 1fr 9fr;
-    gap: 1rem;
-    font-weight: 500;
-    margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
 }
 
 .steps > span {
-    height: fit-content;
-    width: fit-content;
-    aspect-ratio: 1/1;
-    background: var(--color-primary);
-    color: var(--color-white);
-    padding: 0.7rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
+  height: fit-content;
+  width: fit-content;
+  aspect-ratio: 1/1;
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .steps:not(:last-child):after {
-    content: '';
-    width: 2px;
-    height: 2.5rem;
-    background: var(--color-grey);
+  content: "";
+  width: 2px;
+  height: 2.5rem;
+  background: var(--color-grey);
+  margiin-left: 1rem;
 }
 
-.applynow__graphics>img {
-    border-radius: 1rem 1rem 0 0;
+.applynow__graphics > img {
+  border-radius: 1rem 1rem 0 0;
 }
-
 
 /* ====================== MEDIA QUERRY (FOR TABLETS)===================== */
 
 @media screen and (max-width: 1024px) {
-    .container{
-        width: var(--container-width-md);
-    }
+  .container {
+    width: var(--container-width-md);
+  }
 }
-
 
 /* ====================== MEDIA QUERRY (FOR TABLETS)===================== */
 
 @media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-lg);
+    text-align: center;
+  }
 
-    .container {
-        width: var(--container-width-lg);
-        text-align: center;
-    }
+  .applynow__container > h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
 
-    .applynow__container >h1{
-        margin-bottom: 2rem;
-        font-size: 2rem;
-    }
+  .steps {
+    grid-template-columns: 1fr;
+  }
 
-    .steps{
-        grid-template-columns: 1fr;
-    }
+  .applynow__sections {
+    grid-template-columns: 1fr;
+  }
 
-    .applynow__sections {
-        grid-template-columns: 1fr;
-    }
-
-    .applynow__graphics>img {
-        border-radius: 0.4rem;
-    }
+  .applynow__graphics > img {
+    border-radius: 0.4rem;
+  }
 }

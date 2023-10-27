@@ -10,10 +10,10 @@ const Navbar = () => {
 
         <nav>
             <ul>
-                <li>Company</li>
-                <li>Link 2</li>
-                <li>Link 3</li>
-                <li>Link 4</li>
+                <li><a href="#"> Link1</a></li>
+                <li><a href="#"> Link2</a></li>
+                <li><a href="#"> Link3</a></li>
+                <li><a href="#"> Link4</a></li>
             </ul>
         </nav>
         

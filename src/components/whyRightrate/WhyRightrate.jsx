@@ -15,7 +15,7 @@ const WhyRightrate = () => {
         </div>
         <div className="whyrightrate__content">
             <div className="content__items"><span className='icons'><FaClock/></span><p>Apply in Few Minutes</p></div>
-            <div className="content__items"><span className='icons'><BsCalendarDateFill/></span><p>Get Money in 2-4 Working Days</p></div>
+            <div className="content__items"><span className='icons'><BsCalendarDateFill/></span><p>Get Money in Few Days</p></div>
             <div className="content__items"><span className='icons'><BsFillLightningFill/></span><p>Fast Approval</p></div>
             <div className="content__items"><span className='icons'><MdHomeWork/></span><p>No Branch Visit</p></div>
             <div className="content__items"><span className='icons'><FaMoneyBillTransfer/></span><p>Easy Tenure</p></div>
