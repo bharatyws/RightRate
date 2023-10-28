@@ -7,6 +7,7 @@ import Eligibility from './components/eligibility/Eligibility'
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import Testimonials from './components/testimonials/Testimonials'
+import Faquestions from './components/faquestions/Faquestions'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <WhyRightrate/>
         <Eligibility/>
         <Testimonials/>
+        <Faquestions/>
         <Footer/>
     </>
   )

@@ -49,7 +49,7 @@ const Testimonial = () => {
           {/* <div className="client_avatar">
             <img src={image} alt='Client'/>
             </div> */}
-            <h5 className='client_name'>{name}</h5>
+            <h5 className='client__name'>{name}</h5>
             <p className='client__title'>{title}</p>
             <small className='client_review'>
               {review}

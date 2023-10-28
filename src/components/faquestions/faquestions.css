@@ -1,0 +1,9 @@
+.faq__container > h1{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.faq__container > p {
+    color: var(--color-grey);
+    text-align: center;
+}
