@@ -1,0 +1,67 @@
+.container__emi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: var(--color-text);
+  }
+   
+  
+  .container__emi>p
+  {
+    color: var(--color-grey);
+  }
+  .total_amount_card
+  {
+    width: 445px;
+    height: 138px;
+    color: var(--color-white);
+    background: var(--color-primary);
+    border-radius: 1rem;
+    margin-top: 22px;
+     
+  }
+  .card_text {
+    padding-top: 40px;
+  }
+  .total_amount_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .total_amount_para {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .input_area
+  {
+    margin-top: 40px;
+  }
+   
+  .input_field
+  {
+    margin-top: 30px;
+    width: 445px;
+  }
+  #outlined-basic {
+    width: 410px;
+  }
+   
+  .button_collection
+  {
+    margin-top: 61px;
+    margin-bottom: 1rem;
+  }
+  .btn_one {
+    width: 200px;
+    height: 75px;
+   
+  }
+
+  
