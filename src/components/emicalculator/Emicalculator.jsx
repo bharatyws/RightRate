@@ -11,7 +11,7 @@ import {useState} from 'react'
 const Emicalculator = () => {
 
     const [num1,setNum1] = useState(0);
-  const [num2,setNum2] = useState(0);
+//   const [num2,setNum2] = useState(0);
   const [num3,setNum3] = useState(0);
   const [Add,setAdd] = useState("");
  
@@ -19,14 +19,14 @@ const Emicalculator = () => {
     e.preventDefault()
     console.log(e);
  
-    if(num1===0 || num2===0 || num3===0)
+    if(num1===0 || num3===0)
       {
-        alert("please enter a valid weight and height")
+        alert("Please enter a valid Amount and Time Period")
       }
        
       else
       {
-        let Add = (parseInt(num1)*36.5*(parseInt(num3))/12 )/100;
+        let Add = (parseInt(num1)*40*(parseInt(num3))/12 )/100;
         console.log(typeof(Add));
         setAdd(parseInt(Add))
       }
