@@ -19,7 +19,7 @@ const data = {
         },
         {
             title: "Are there any hidden fees?",
-            content: `No. There are no hidden fees and charges involved when you take a personal loan from PaySense. All the fees and charges like interest rates, loan processing fees, late payment charges and foreclosure charges are mentioned in the loan agreement.`,
+            content: `No. There are no hidden fees and charges involved when you take a personal loan from RightRate. All the fees and charges like interest rates, loan processing fees, late payment charges and foreclosure charges are mentioned in the loan agreement.`,
         },
         {
             title: "How much processing fees do you charge?",

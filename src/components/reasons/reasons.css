@@ -1,0 +1,22 @@
+.reasons__container {
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 2.5rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.reasons__icons__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.reason__icon {
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
+.reason__icon >p {
+    font-size: 1rem;
+    text-decoration: underline;
+}

@@ -9,6 +9,8 @@ import Footer from './components/footer/Footer'
 import Testimonials from './components/testimonials/Testimonials'
 import Faquestions from './components/faquestions/Faquestions'
 import Emicalculator from './components/emicalculator/Emicalculator'
+import Details from './components/details/Details'
+import Reasons from './components/reasons/Reasons'
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
         <WhyRightrate/>
         <Eligibility/>
         <Emicalculator/>
+        <Details/>
+        <Reasons/>
         <Testimonials/>
         <Faquestions/>
         <Footer/>
