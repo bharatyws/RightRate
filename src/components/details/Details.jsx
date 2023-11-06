@@ -11,13 +11,13 @@ const Details = () => {
         <div className="info__two">
             <h3 className='detail__heading'>Features of personal loan</h3>
             <p className='detail__para'>
-                <ul>
+                <ol>
                     <li>A mini personal loan can be sanctioned without the need of pledging any kind of collateral.</li>
                     <li>The application process requires you to submit very few documents making it a lot more convenient.</li>
                     <li>The verification process is straightforward leading to quick loan approval and hence making it the perfect option to rely on at the time of financial emergencies.</li>
                     <li>The loan amount will be wired directly to the applicant’s account within 30 minutes* of document verification and loan approval.</li>
                     <li>Repayment of the small amount borrowed as a personal loan can be done in EMIs according to customers' convenience.</li>
-                </ul>
+                </ol>
             </p>
         </div>
         <div className="info__three">
@@ -25,22 +25,22 @@ const Details = () => {
             <p className='detail__para'>
             You need to meet the below basic criteria to be eligible for a personal loan. You can use personal loan eligibility checker to verify the same.
             <br /> <br />
-            <ul>
+            <ol>
                 <li>You should be a citizen of India.</li>
                 <li>The minimum age to apply for a small personal loan is 21 years.</li>
                 <li>The individual needs to be self-employed or have a certain kind of income.</li>
                 <li>The age of the customer at the time of maturity of the loan should be less than 65 years.</li>
-            </ul>
+            </ol>
             </p>
         </div>
         <div className="info__four">
             <h3 className='detail__heading'>Documents required for loan</h3>
             <p className='detail__para'>
-                <ul>
+                <ol>
                     <li>ID, Age and Address Proof (Any one) - Valid Passport, Voter ID, Aadhar Card, PAN Card, Valid Driving License</li>
                     <li>Income Proof for Salaried – Salary Slips/ Bank Statements/ Form-16 and Income tax returns</li>
                     <li>Other Documents – Application form with photograph duly signed, last 6 months bank statements and PAN card photocopy</li>
-                </ul>
+                </ol>
             </p>
         </div>
         <div className="info__four">

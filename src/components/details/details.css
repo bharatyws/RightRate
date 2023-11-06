@@ -1,22 +1,33 @@
 .detail__heading {
-    font-size: 2rem;
-    font-weight: 400;
-    padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 2rem 0;
 }
 
-.detail__para >ul {
-    display: block;
+.detail__para > ol {
+  display: block;
 }
 
-.detail__para > ul > li{
-    list-style: disc;
+.detail__para > ol > li {
+  list-style: disc;
+  float: left;
 }
 
-.detail__para  {
-    font-size: 0.9rem;
-    color: var(--color-grey);
+.detail__para {
+  font-size: 0.9rem;
+  color: var(--color-grey);
 }
 
 .detail__para:nth-child(3) > p {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.info__two {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
