@@ -61,7 +61,7 @@ const Emicalculator = () => {
           <p className='total_amount_para'>Total simple interest</p>
           </div>
         </div>
-        <form onSubmit={calcSum}>
+        <form onSubmit={calcSum} className='emi_form'>
  
         <div className='input_area'>
             <div className='input_field'>

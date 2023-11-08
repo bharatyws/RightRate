@@ -65,3 +65,41 @@
   }
 
   
+/* ====================== MEDIA QUERRY (FOR TABLETS)===================== */
+
+@media screen and (max-width: 1024px) {
+  .container{
+      width: var(--container-width-md);
+  }
+
+  .container__emi > h1{
+    font-size: 2rem;
+  }
+}
+
+
+/* ====================== MEDIA QUERRY (FOR MOBILES)===================== */
+
+@media screen and (max-width: 600px) {
+
+  .container {
+      width: var(--container-width-lg);
+  }
+
+  .total_amount_card {
+    width: 300px;
+  }
+
+  .input_field
+  {
+    margin-top: 30px;
+    width: 300px;
+  }
+  #outlined-basic {
+    width: 300px;
+  }
+
+  .emi_form {
+    width: 400px;
+  }
+}
