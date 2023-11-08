@@ -15,7 +15,9 @@
   --color-grey: #8c8c8c;
   --color-primary-dull: #92d6d6;
   --color-white: #ffffff;
+  --color-white-variant: #dcdcdc;
   --color-text: #030303;
+  --color-bg: #37445a;
 
   --transition: all 400ms ease;
 

@@ -11,6 +11,8 @@ import Faquestions from './components/faquestions/Faquestions'
 import Emicalculator from './components/emicalculator/Emicalculator'
 import Details from './components/details/Details'
 import Reasons from './components/reasons/Reasons'
+import Download from './components/download/Download'
+import Achievements from './components/achievements/Achievements'
 
 const App = () => {
   return (
@@ -20,12 +22,17 @@ const App = () => {
         <Mover/>
         <Applynow/>
         <WhyRightrate/>
-        <Eligibility/>
+        <Download/>
         <Emicalculator/>
+        <Achievements/>
+        <Eligibility/>
+        <Download/>
         <Details/>
+        <Download/>
         <Reasons/>
         <Testimonials/>
         <Faquestions/>
+        <Download/>
         <Footer/>
     </>
   )

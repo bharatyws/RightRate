@@ -1,0 +1,28 @@
+.achievements__container {
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 2rem;
+    text-align: center;
+}
+
+.achievements__container P {
+    color: var(--color-white-variant);
+}
+
+.numbers__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3rem;
+}
+
+.num {
+    padding: 3rem 0;
+}
+
+.num h1 {
+    color: var(--color-primary);
+}
+
+.num p {
+    color: var(--color-white-variant);
+}

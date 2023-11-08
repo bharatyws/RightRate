@@ -10,14 +10,14 @@ const Navbar = () => {
 
         <nav className='navigation-menu'>
             <ul>
-                <li><a href="#"> Company</a></li>
-                <li><a href="#"> Intrests</a></li>
-                <li><a href="#"> EMI Calculator</a></li>
-                <li><a href="#"> Awards</a></li>
+                <li><a href=".deatils"> Company</a></li>
+                <li><a href=".footer"> Intrests</a></li>
+                <li><a href=".emicalculator"> EMI Calculator</a></li>
+                <li><a href=".awards"> Awards</a></li>
             </ul>
             
         </nav>
-        <a href="" className='btn btn-primary'> Login/Signup</a>
+        <a href="login" className='btn btn-primary'> Login/Signup</a>
         
         <button className='hamburger'><img src={menu} className='menu_icon' alt=""  /></button>
     </section>
