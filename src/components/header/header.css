@@ -1,12 +1,6 @@
-.header__container{
+.main__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1.1rem;  
-}
-
-.header__text {
-    display: grid;
-    gap: 6rem;
 }
 
 .main__text {
