@@ -44,7 +44,11 @@
 }
 
 .head__apply {
-  margin: 2.5rem 6rem;
+  margin: 2.5rem 2.5rem 2.5rem 0;
+}
+
+.btn__container{
+  display: flex;
 }
 
 .powered__by {
