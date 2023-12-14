@@ -94,6 +94,13 @@
     align-items: center;
   }
 
+  .main__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
   .header__graphics {
     display: none;
   }
