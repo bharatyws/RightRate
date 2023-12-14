@@ -47,7 +47,7 @@ const Footer = () => {
                 <p>RightRate Finance is a platform that connects businesses with lending options offered by RBI-licensed NBFC partners. The loans offered on the platform are subject to the terms and conditions and loan approval process of the NBFC partners</p>
             </section>
             </div>
-            
+            chutiya footer master commit 
 
             
     </footer>
