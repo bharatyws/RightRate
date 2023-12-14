@@ -34,7 +34,7 @@ const Footer = () => {
                         <p>
                             <a>Have any Doubts ?</a> <br />
                             <a>Feel free to</a> <br />
-                            <a href="">Contact ME</a> <br />
+                            <a href="">Contact US</a> <br />
                         </p>
                     </div>
                 </div>
