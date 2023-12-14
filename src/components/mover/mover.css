@@ -6,7 +6,6 @@
 }
 
 .mover__info {
-  animation: marquee 15s linear infinite;
   font-weight: 500;
   font-size: 1.3rem;
 }

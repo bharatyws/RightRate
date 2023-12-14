@@ -4,7 +4,7 @@ import './mover.css'
 const Mover = () => {
   return (
     <section className='mover__container'>
-        <h3 className='mover__info'> • Minimal Documentation • Hassle Free Loans • No Collateral Required • Online Loan Facility</h3>
+        <h3 className='mover__info'> • Minimal Documentation • Hassle Free Loans • No Collateral Required • Online Loan Facility • Instant Loan Approvals • Lowest EMIs</h3>
     </section>
   )
 }
