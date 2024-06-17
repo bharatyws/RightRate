@@ -28,7 +28,7 @@
   }
 }
 
-/* ====================== MEDIA QUERRY (FOR TABLETS)===================== */
+/* ====================== MEDIA QUERRY (FOR MOBILE)===================== */
 
 @media screen and (max-width: 600px) {
   .mover__container {
